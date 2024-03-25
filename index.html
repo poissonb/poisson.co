@@ -338,6 +338,19 @@
 
     </div>
     <!-- Contenido -->
+    
+        <script>
+        window.addEventListener('scroll', function() {
+            var translationBanner = document.getElementById('translationBanner');
+            if (window.scrollY > 0) {
+                translationBanner.classList.add('show-translation-banner');
+                document.body.classList.add('translation-banner-visible');
+            } else {
+                translationBanner.classList.remove('show-translation-banner');
+                document.body.classList.remove('translation-banner-visible');
+            }
+        });
+    </script>
 </body>
 
 </html>
