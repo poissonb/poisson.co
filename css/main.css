@@ -2,188 +2,127 @@
 Header
 */
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-/* Header */
 .header {
-=======
-.header{
->>>>>>> parent of cc493b0 (Update main.css)
-=======
-.header{
->>>>>>> parent of cc493b0 (Update main.css)
-=======
-.header{
->>>>>>> parent of cc493b0 (Update main.css)
     text-align: center;
     height: 50px;
-    background-color: 	#233143;
+    background-color: #FCD116; /* Jaune */
     background-size: contain;
     justify-content: center;
     display: flex;
     flex-direction: column;
     border-bottom-style: outset;
-    border-bottom-color: #A31621;
+    border-bottom-color: #003366; /* Bleu foncé */
     position: fixed;
     width: 100%;
     top: 0;
     z-index: 1;
 }
 
-
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-
-
-=======
->>>>>>> parent of cc493b0 (Update main.css)
-=======
->>>>>>> parent of cc493b0 (Update main.css)
-=======
->>>>>>> parent of cc493b0 (Update main.css)
 .header .header-menu a {
-    color: snow;
+    color: #003366; /* Bleu foncé */
     margin-right: 15px;
     font-family: 'Merriweather', serif;
-
 }
-
 
 .header .header-menu a:hover {
-    color: #A31621;
+    color: #FCD116; /* Jaune */
 }
-
-        .alert-banner {
-            background-color: #FF0000;
-            color: #FFFFFF;
-            text-align: center;
-            padding: 2px;
-            position: fixed;
-            width: 100%;
-            z-index: 999; /* Assure que le bandeau est au-dessus de tout autre contenu */
-        }
-
-
-
 
 /*
 body
 */
-body{
+body {
     margin: 0;
 }
-/* 
+
+/*
 Banner 
 */
 
-.banner{
+.banner {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background-color: #2e4057;
+    background-color: #003366; /* Bleu foncé */
     margin: 0px;
     margin-top: 50px;
 }
 
-.banner .banner-content{
+.banner .banner-content {
     margin-left: 15px;
 }
 
-.banner .banner-image{
+.banner .banner-image {
     margin-right: 15px;
 }
 
-.banner .banner-image img{
+.banner .banner-image img {
     margin-top: 15px;
     margin-bottom: 15px;
     max-width: 150px;
     height: auto;
-    border-color: #eef2f6;
+    border-color: #FCD116; /* Jaune */
     border-width: 5px;
     border-style: solid dotted;
     border-radius: 75px;
 }
 
-.banner .banner-content h1{
+.banner .banner-content h1 {
     font-family: 'Merriweather', serif;
-    color: #eef2f6;
+    color: #FCD116; /* Jaune */
 }
 
-.banner .banner-content h2, .banner .banner-content h3{
+.banner .banner-content h2,
+.banner .banner-content h3 {
     font-family: 'Merriweather', serif;
-    color : #eef2f6;
+    color: #FCD116; /* Jaune */
 }
 
-<<<<<<< HEAD
-/* Contenu */
-.content {
-=======
 /*
 Contenu
 */
-.content{
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> parent of cc493b0 (Update main.css)
-=======
->>>>>>> parent of cc493b0 (Update main.css)
-=======
->>>>>>> parent of cc493b0 (Update main.css)
+.content {
     display: flex;
     flex-wrap: wrap;
     flex-flow: column;
     justify-content: center;
     margin: auto;
     max-width: 840px;
-    padding-top: 100px; /* Ajustement de la marge supérieure du contenu pour éviter le recouvrement par le bandeau */
 }
 
-
-.content .content-title h1{
+.content .content-title h1 {
     font-family: 'Merriweather', serif;
-    color: #2e4057;
+    color: #003366; /* Bleu foncé */
     border-bottom-style: solid;
 }
 
-
-.content .content-content{
+.content .content-content {
     font-family: 'Raleway', sans-serif;
-    color: 	#2e4057;
+    color: #003366; /* Bleu foncé */
 }
 
 /*
 Awesome Font
 */
 
-.fas, .fa{
-    color: #A31621;
-    
+.fas,
+.fa {
+    color: #FCD116; /* Jaune */
 }
-
-/*
-Section à propos
-*/
-
-
-
 
 /*
 Experiences Pro
 */
 
-i.experiences-lieux{
-    color: 	#2e4057;
+i.experiences-lieux {
+    color: #003366; /* Bleu foncé */
 }
 
-.experiences-list{
+.experiences-list {
     display: flex;
 }
 
-
-ul.content-content{
+ul.content-content {
     list-style-image: none;
     list-style-position: unset;
     list-style-type: none;
@@ -191,61 +130,58 @@ ul.content-content{
     padding-left: 0;
 }
 
-.experiences-img{
+.experiences-img {
     display: flex;
     margin: auto;
 }
 
-.experiences-logo{
+.experiences-logo {
     max-width: 64px;
     max-height: 64px;
     position: relative;
     flex-shrink: 0;
 }
 
-.experiences-text{
+.experiences-text {
     padding-left: 6px;
     margin: 6px;
     flex-grow: 1;
 }
 
-
-
-.experiences-lieux, .experiences-dates, .experiences-title{
+.experiences-lieux,
+.experiences-dates,
+.experiences-title {
     margin: 0;
     padding: 0;
     border: 0;
 }
 
-.experiences-content{
+.experiences-content {
     padding-top: 10px;
     margin-top: 10px;
     padding-bottom: 10px;
     margin-bottom: 10px;
 }
 
-
-
 /*
 Formations
 */
 
-.formations-annees{
+.formations-annees {
     float: left;
     padding-right: 0.4em;
     margin-right: 0.4em;
     border-right-style: solid;
-    border-right-color: #A31621;
-
+    border-right-color: #FCD116; /* Jaune */
 }
 
-.formations-diplome, .formations-lieux{
+.formations-diplome,
+.formations-lieux {
     margin: 0.25em;
     border: 0;
 }
 
-.formations-lieux{
+.formations-lieux {
     margin-bottom: 1.5em;
     font-style: italic;
-
 }
