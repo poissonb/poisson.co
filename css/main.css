@@ -28,6 +28,22 @@ Header
     color: #FCD116; /* Jaune */
 }
 
+        .alert-banner {
+            background-color: #FF0000;
+            color: #FFFFFF;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            z-index: 999; /* Assure que le bandeau est au-dessus de tout autre contenu */
+        }
+
+        /* Styles pour s'adapter au header fixe */
+        .content {
+            margin-top: 50px; /* Ajustez la marge supérieure pour tenir compte du header fixe */
+        }
+
+
 /*
 body
 */
