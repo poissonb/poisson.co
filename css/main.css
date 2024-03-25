@@ -1,25 +1,23 @@
 /*
 Header
 */
+/* Estilos para el bandeau de traducción */
 .translation-banner {
-    background-color: #FFCC00;
-    color: #333;
-    text-align: center;
-    padding: 8px 0;
-    font-size: 12px;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 9999;
-    display: none;
+    background-color: #333; /* Color de fondo */
+    color: #fff; /* Color del texto */
+    padding: 10px 0; /* Espaciado interior */
+    text-align: center; /* Alineación del texto */
+    position: fixed; /* Posición fija */
+    bottom: 0; /* Alinear en la parte inferior */
+    left: 0; /* Alinear en la parte izquierda */
+    width: 100%; /* Ancho completo */
+    z-index: 1000; /* Colocar por encima de otros elementos */
+    display: none; /* Ocultar inicialmente */
 }
 
-.translation-banner.show {
-    display: block;
-}
-
-.translation-banner p {
-    margin: 0;
+/* Estilos adicionales para el bandeau de traducción cuando se muestra */
+.show-translation-banner {
+    display: block; /* Mostrar el bandeau */
 }
 
 
