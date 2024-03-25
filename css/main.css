@@ -16,7 +16,10 @@ Header
     width: 100%;
     top: 0;
     z-index: 1;
+    padding-top: 10px; /* Nouvelle ligne ajoutée */
 }
+
+
 
 .header .header-menu a {
     color: #003366; /* Bleu foncé */
@@ -94,6 +97,7 @@ Banner
 /*
 Contenu
 */
+/* Contenu */
 .content {
     display: flex;
     flex-wrap: wrap;
@@ -101,8 +105,7 @@ Contenu
     justify-content: center;
     margin: auto;
     max-width: 840px;
-    margin-top: 50px; /* Ajustez la marge supérieure pour tenir compte du header fixe */
-
+    margin-top: 70px; /* Ajustement pour éviter que le contenu ne soit caché par le bandeau */
 }
 
 .content .content-title h1 {
