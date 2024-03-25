@@ -2,25 +2,6 @@
 Header
 */
 /* Estilos para el bandeau de traducción */
-.translation-banner {
-    background-color: #333; /* Color de fondo */
-    color: #fff; /* Color del texto */
-    padding: 10px 0; /* Espaciado interior */
-    text-align: center; /* Alineación del texto */
-    position: fixed; /* Posición fija */
-    bottom: 0; /* Alinear en la parte inferior */
-    left: 0; /* Alinear en la parte izquierda */
-    width: 100%; /* Ancho completo */
-    z-index: 1000; /* Colocar por encima de otros elementos */
-    display: none; /* Ocultar inicialmente */
-}
-
-/* Estilos adicionales para el bandeau de traducción cuando se muestra */
-.show-translation-banner {
-    display: block; /* Mostrar el bandeau */
-}
-
-
 .header {
     text-align: center;
     height: 50px;
@@ -204,3 +185,18 @@ Formations
     margin-bottom: 1.5em;
     font-style: italic;
 }
+
+
+
+/* CSS pour le footer */
+footer.translation-banner {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333; /* Couleur de fond */
+    color: #fff; /* Couleur du texte */
+    padding: 10px; /* Espace intérieur */
+    text-align: center;
+}
+
