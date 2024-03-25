@@ -3,8 +3,12 @@ Header
 */
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* Header */
 .header {
+=======
+.header{
+>>>>>>> parent of cc493b0 (Update main.css)
 =======
 .header{
 >>>>>>> parent of cc493b0 (Update main.css)
@@ -25,9 +29,12 @@ Header
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
 
+=======
+>>>>>>> parent of cc493b0 (Update main.css)
 =======
 >>>>>>> parent of cc493b0 (Update main.css)
 .header .header-menu a {
@@ -111,6 +118,9 @@ Banner
 Contenu
 */
 .content{
+<<<<<<< HEAD
+>>>>>>> parent of cc493b0 (Update main.css)
+=======
 >>>>>>> parent of cc493b0 (Update main.css)
     display: flex;
     flex-wrap: wrap;
