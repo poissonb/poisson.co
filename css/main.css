@@ -2,6 +2,7 @@
 Header
 */
 
+/* Header */
 .header {
     text-align: center;
     height: 50px;
@@ -16,8 +17,9 @@ Header
     width: 100%;
     top: 0;
     z-index: 1;
-    padding-top: 10px; /* Nouvelle ligne ajoutée */
 }
+
+
 
 
 
@@ -94,9 +96,6 @@ Banner
     color: #FCD116; /* Jaune */
 }
 
-/*
-Contenu
-*/
 /* Contenu */
 .content {
     display: flex;
@@ -105,7 +104,7 @@ Contenu
     justify-content: center;
     margin: auto;
     max-width: 840px;
-    margin-top: 70px; /* Ajustement pour éviter que le contenu ne soit caché par le bandeau */
+    padding-top: 100px; /* Ajustement de la marge supérieure du contenu pour éviter le recouvrement par le bandeau */
 }
 
 .content .content-title h1 {
