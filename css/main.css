@@ -88,6 +88,7 @@ Contenu
     justify-content: center;
     margin: auto;
     max-width: 840px;
+    margin-bottom: 50px; /* Réglez la valeur sur la hauteur du footer */
 }
 
 .content .content-title h1 {
