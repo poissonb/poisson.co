@@ -2,17 +2,21 @@
 Header
 */
 
+<<<<<<< HEAD
 /* Header */
 .header {
+=======
+.header{
+>>>>>>> parent of cc493b0 (Update main.css)
     text-align: center;
     height: 50px;
-    background-color: #FCD116; /* Jaune */
+    background-color: 	#233143;
     background-size: contain;
     justify-content: center;
     display: flex;
     flex-direction: column;
     border-bottom-style: outset;
-    border-bottom-color: #003366; /* Bleu foncé */
+    border-bottom-color: #A31621;
     position: fixed;
     width: 100%;
     top: 0;
@@ -20,17 +24,22 @@ Header
 }
 
 
+<<<<<<< HEAD
 
 
 
+=======
+>>>>>>> parent of cc493b0 (Update main.css)
 .header .header-menu a {
-    color: #003366; /* Bleu foncé */
+    color: snow;
     margin-right: 15px;
     font-family: 'Merriweather', serif;
+
 }
 
+
 .header .header-menu a:hover {
-    color: #FCD116; /* Jaune */
+    color: #A31621;
 }
 
         .alert-banner {
@@ -49,55 +58,60 @@ Header
 /*
 body
 */
-body {
+body{
     margin: 0;
 }
-
-/*
+/* 
 Banner 
 */
 
-.banner {
+.banner{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background-color: #003366; /* Bleu foncé */
+    background-color: #2e4057;
     margin: 0px;
     margin-top: 50px;
 }
 
-.banner .banner-content {
+.banner .banner-content{
     margin-left: 15px;
 }
 
-.banner .banner-image {
+.banner .banner-image{
     margin-right: 15px;
 }
 
-.banner .banner-image img {
+.banner .banner-image img{
     margin-top: 15px;
     margin-bottom: 15px;
     max-width: 150px;
     height: auto;
-    border-color: #FCD116; /* Jaune */
+    border-color: #eef2f6;
     border-width: 5px;
     border-style: solid dotted;
     border-radius: 75px;
 }
 
-.banner .banner-content h1 {
+.banner .banner-content h1{
     font-family: 'Merriweather', serif;
-    color: #FCD116; /* Jaune */
+    color: #eef2f6;
 }
 
-.banner .banner-content h2,
-.banner .banner-content h3 {
+.banner .banner-content h2, .banner .banner-content h3{
     font-family: 'Merriweather', serif;
-    color: #FCD116; /* Jaune */
+    color : #eef2f6;
 }
 
+<<<<<<< HEAD
 /* Contenu */
 .content {
+=======
+/*
+Contenu
+*/
+.content{
+>>>>>>> parent of cc493b0 (Update main.css)
     display: flex;
     flex-wrap: wrap;
     flex-flow: column;
@@ -107,39 +121,49 @@ Banner
     padding-top: 100px; /* Ajustement de la marge supérieure du contenu pour éviter le recouvrement par le bandeau */
 }
 
-.content .content-title h1 {
+
+.content .content-title h1{
     font-family: 'Merriweather', serif;
-    color: #003366; /* Bleu foncé */
+    color: #2e4057;
     border-bottom-style: solid;
 }
 
-.content .content-content {
+
+.content .content-content{
     font-family: 'Raleway', sans-serif;
-    color: #003366; /* Bleu foncé */
+    color: 	#2e4057;
 }
 
 /*
 Awesome Font
 */
 
-.fas,
-.fa {
-    color: #FCD116; /* Jaune */
+.fas, .fa{
+    color: #A31621;
+    
 }
+
+/*
+Section à propos
+*/
+
+
+
 
 /*
 Experiences Pro
 */
 
-i.experiences-lieux {
-    color: #003366; /* Bleu foncé */
+i.experiences-lieux{
+    color: 	#2e4057;
 }
 
-.experiences-list {
+.experiences-list{
     display: flex;
 }
 
-ul.content-content {
+
+ul.content-content{
     list-style-image: none;
     list-style-position: unset;
     list-style-type: none;
@@ -147,58 +171,61 @@ ul.content-content {
     padding-left: 0;
 }
 
-.experiences-img {
+.experiences-img{
     display: flex;
     margin: auto;
 }
 
-.experiences-logo {
+.experiences-logo{
     max-width: 64px;
     max-height: 64px;
     position: relative;
     flex-shrink: 0;
 }
 
-.experiences-text {
+.experiences-text{
     padding-left: 6px;
     margin: 6px;
     flex-grow: 1;
 }
 
-.experiences-lieux,
-.experiences-dates,
-.experiences-title {
+
+
+.experiences-lieux, .experiences-dates, .experiences-title{
     margin: 0;
     padding: 0;
     border: 0;
 }
 
-.experiences-content {
+.experiences-content{
     padding-top: 10px;
     margin-top: 10px;
     padding-bottom: 10px;
     margin-bottom: 10px;
 }
 
+
+
 /*
 Formations
 */
 
-.formations-annees {
+.formations-annees{
     float: left;
     padding-right: 0.4em;
     margin-right: 0.4em;
     border-right-style: solid;
-    border-right-color: #FCD116; /* Jaune */
+    border-right-color: #A31621;
+
 }
 
-.formations-diplome,
-.formations-lieux {
+.formations-diplome, .formations-lieux{
     margin: 0.25em;
     border: 0;
 }
 
-.formations-lieux {
+.formations-lieux{
     margin-bottom: 1.5em;
     font-style: italic;
+
 }
