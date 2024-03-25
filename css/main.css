@@ -1,6 +1,27 @@
 /*
 Header
 */
+.translation-banner {
+    background-color: #FFCC00;
+    color: #333;
+    text-align: center;
+    padding: 8px 0;
+    font-size: 12px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+    display: none;
+}
+
+.translation-banner.show {
+    display: block;
+}
+
+.translation-banner p {
+    margin: 0;
+}
+
 
 .header {
     text-align: center;
